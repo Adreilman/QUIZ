@@ -1,2 +1,1 @@
-So initially the error with the b file was fixed by putting brackets() after random_noise cause it is a function so.
-Then, the print statement was prevented by putting it inside the hypotenuse function.
+What i basically did is in the c.py file that i replaced y by b  in the hypotenuse function and in the b.py file i made sure when calling the function it was random_noise() and not random_noise. To make sure the statement wasnt printed without deleting the print statement i simply placed the statement in hypotenuse function. since the function is not called, the print statement will never be called. We can also import only the random_noise function from c and not anything else like the print statement however i found my method simpler
